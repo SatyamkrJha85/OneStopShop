@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+html {
+  height: 100%;
+}
+
+#back {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../Resources/contactus/black.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#two {
+  height: 400px;
+  width: 300px;
+  border-radius: 2rem;
+  background-color: black;
+  display: flex;
+  position: relative;
+  right: 800px;
+  color: black;
+  justify-content: center;
+  animation: slideInLeft 2.5s ease backwards;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+#twoin {
+  height: 360px;
+  width: 250px;
+  background-color: rgb(5, 1, 1);
+  color: white;
+  margin: 18px;
+}
+#twoin p{
+    font-size: .7rem;
+}
+#twoin h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}
+
+p {
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+i {
+  margin-right: 5px;
+  color: white;
+}
+#twofoot {
+  position: relative;
+  top: 130px;
+  display: flex;
+  justify-content: center;
+}
+
+#twofoot,
+i {
+  padding-right: 5px;
+}
+
+#messageform {
+  height: 500px;
+  width: 64%;
+  background-color: white;
+  border-radius: 2rem;
+  border: 5px solid black;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 80px;
+  animation: slideInRight 2.5s ease forwards;
+}
+
+#messageform h2 {
+  letter-spacing: 0.1rem;
+}
+
+form {
+  width: 670px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  left: 200px;
+}
+
+form h2 {
+  font-weight: 500;
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+form input {
+  width: 290px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background: none;
+  border-bottom: 2px solid black;
+}
+
+form input::placeholder {
+  color: black;
+}
+
+form #Lastname,
+form #phone {
+  margin-left: 20px;
+}
+
+form h4 {
+  font-weight: 300;
+  width: 600px;
+  margin-top: 20px;
+}
+
+form textarea {
+  background: none;
+  border: none;
+  border-bottom: 2px solid black;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 80px;
+  max-height: 80px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: white;
+}
+
+form #button {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  width: 100px;
+  padding: 0;
+  margin-right: 500px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}

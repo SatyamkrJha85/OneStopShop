@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    z-index: 1000;
+    position: fixed; /* Make the navbar fixed */
+    top: 0; /* Position it at the top of the viewport */
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: .6rem 1rem; /* Adjust the padding for spacing */
+    background-color: white;/* Add a background color to make it visible on top of other content */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for separation */
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*Start of Testing */
+
+/* Search Bar */
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 300px; 
+    height: 1.5rem;
+    background: transparent;
+    padding:0;
+    margin:0;
+    padding-left:10px;
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    marign:0;
+    padding:0;
+    margin-right: 7px;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-color:whitesmoke; 
+    border-radius: 10px; 
+    padding:10px;
+    margin-left:10px;
+}
+
+.dropdown-content {
+    right: 2%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    text-align: center;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #000;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*End of Testing */
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+}
+/* media query for menu */
+
+@media only screen and (max-width: 800px) {
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        color: #fff;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.right-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-nav a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    margin: 10px;
+}
+
+.right-nav a span{
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+.right-nav .cart {
+    background-color: #ecf7ee;
+    color: #4eb060;
+}
+.right-nav .cart span{
+    background-color: #4eb060;
+}
+
+/* Hide the dropdown menu by default */
+.dropdown-box{
+    position: absolute;
+    top:55px;
+    right:300px;
+}
+
+.dropdown-menu a{
+    text-align: left;
+    font-size: 13px;
+    padding: .5rem;
+    padding-left: 1rem;
+    width: 100%
+}
+.dropdown-menu a:hover{
+    background-color: #ecf7ee;
+}
+.dropdown-menu {
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transition: visibility 0.3s, opacity 0.3s; /* Add a smooth transition effect */
+}
+
+.dropdown-button:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+

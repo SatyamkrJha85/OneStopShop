@@ -1,0 +1,85 @@
+/* Reset some default styles for the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins";
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  header {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+    letter-spacing: .3rem;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .orders {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 15px;
+    letter-spacing: .2rem;
+  }
+
+  h3 {
+    letter-spacing: .1rem;
+  }
+  
+  .order-list {
+    display: grid;
+    grid-gap: 20px;
+  }
+  
+  .order {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+.container {
+    display: flex;
+    width: 90%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+  .cancel-btn {
+    height: 2rem;
+    width: 7rem;
+    margin-top: 10%;
+    background-color: #3498db;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    letter-spacing: .1rem;
+  }
+
+  .cancel-btn:hover {
+    cursor: pointer;
+    background-color: #5fa8e4;
+  }
+
+  .cancel-btn:active {
+    background-color: #1f648b;
+  }

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(132, 139, 200, 0.18);
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 1.5rem;
+    background: transparent;
+}
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    right: 2%;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    text-align: center;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #000;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*End of Testing */
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+/* profile.css */
+.profile-details {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    position: fixed;
+    top: calc(13% + 40px);
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 50px; 
+}
+
+.profile-picture {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#change-pic-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #7380ec;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+#change-pic-button:hover {
+    background-color: #66bb6a;
+}
+
+#change-pic-button:active {
+    background-color: #388e3c;
+}
+
+.profile-form {
+    flex: 2;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#address {
+    height: 5rem;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1 solid #ccc;
+    box-sizing: border-box;
+}
+
+.save-cng {
+    text-align: right;
+}
+
+button[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #66bb6a;
+}
+
+button[type="submit"]:active {
+    background-color: #388e3c;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .profile-container {
+        flex-direction: column;
+    }
+
+    .profile-picture {
+        margin-bottom: 20px;
+    }
+}

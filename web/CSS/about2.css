@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    font-size: 20px;
+}
+h1{
+    margin: 10px;
+    color: #333;
+}
+.inside{
+    margin: 25px;
+}
+.inside p{
+    text-align: justify;
+}
+#one{
+    width: 45%;
+    height: 500px;
+
+    display: inline-block;
+    margin: 40px 20px;
+    float: left;
+}
+#two{
+    width: 45%;
+    height: 500px;
+    display: inline-block;
+    background-image: url("../Resources/about/vision.PNG");
+    background-size: cover;
+    margin: 40px 20px;
+    float: left;
+    border-radius: 20px;
+}
+#three{
+    width: 45%;
+    height: 500px;
+    background-image: url(../Resources/about/approch.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin: 40px 20px;
+    float: left;
+    border-radius: 20px;
+}
+#four{
+    width: 45%;
+    height: 500px;
+    display: inline-block;
+
+    margin: 40px 20px;
+    float: left;
+}
+#five{
+    width: 45%;
+    height: 500px;
+
+    display: inline-block;
+    margin: 40px 20px;
+    float: left;
+}
+#six{
+    width: 45%;
+    height: 500px;
+    display: inline-block;
+    background-image: url(../Resources/about/process.webp);
+    margin: 40px 20px;
+    float: left;
+    border-radius: 20px;
+}

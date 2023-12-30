@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.main-container {
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+    background: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+    animation: upToDown 3s ease forwards;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0,0.3)
+}
+
+.main-container h1 {
+    letter-spacing: .2rem;
+    margin-top: 2.5rem;
+}
+
+form {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input, select {
+    height: 2rem;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+
+#answer {
+    padding-left: .4rem;
+}
+
+#submit {
+    width: 20%;
+    background-color: #6a80c0;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    letter-spacing: .1rem;
+}
+
+#submit:hover {
+    background-color: #4d64a0;
+}
+
+#submit:active {
+    background-color: #334f8b;
+}
+
+img {
+    width: 30%;
+    height: auto;
+    animation: slideInLeft 3s ease forwards;
+    margin-right: 5%;
+}
+
+@keyframes upToDown{
+    from {
+        transform: translateY(-100%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

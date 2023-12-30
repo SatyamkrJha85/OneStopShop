@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding:0;
+    margin:2% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.main{
+    border-radius: .5rem;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    background-color: white;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 3%;
+    padding:2%;
+}
+.left .logo{
+    display: flex;
+    justify-content: center;
+}
+.left img{
+    width: 40%;
+}
+.left .textheading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.left h2{
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: .1rem;
+}
+.left h4{
+    font-size: 1rem;
+    /*font-weight: 50;*/
+    margin:0;
+    margin-bottom: 5%;
+}
+
+.left h4 a {
+    font-weight: bold;
+}
+
+.left .input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:60%;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+.left form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 17rem;
+}
+.left label{
+    margin-left:5px;
+    margin-top:3px;
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: .07rem
+}
+input[type="email"],input[type="password"],input[type="text"]{
+    border: .1px solid grey;
+    background-color:white;
+    border-radius: 10rem;
+    height: 2.3rem;
+    text-align: center;
+    margin:5px;
+    box-shadow: rgba(0, 0, 0, 0.9);
+    letter-spacing: .02rem;
+    font-family: "Poppins";
+}
+
+.star {
+    color: red;
+}
+.alphaNumeric {
+    font-size: .65rem;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+.modal {
+    font-size: .8rem;
+    display: none;
+    position: fixed;
+    top: auto;
+    left: auto;
+    width: 30%;
+    height: auto;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content h3 {
+    text-align: center;
+    padding: .5rem 0;
+}
+
+.modal-content {
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+.terms-btn {
+    text-align: center;
+    margin-top: 1rem;
+    padding: .3rem .6rem;
+    cursor: pointer;
+}
+
+.left .extrafeatures {
+    font-size: .7rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.left .extrafeatures .check-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2rem;
+}
+.left .extrafeatures .check-box p{
+    margin-left: 5px;
+}
+.left a{
+    text-decoration: none;
+}
+/* CSS for the submit button */
+.left .submit input[type="submit"] {
+    background-color: #635EF3;
+    color: #fff;
+    padding: 10px 20px; /* Adjust padding for the desired size */
+    border: none;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+    margin: 1rem 0 1rem .3rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: .05rem;
+}
+
+.left .submit input[type="submit"]:hover {
+    background-color: #7D7BFF;
+}
+
+.left .submit input[type="submit"]:active{
+    transform: scale(0.95);
+    background-color: #4D4BC9;
+}
+
+.left .login{
+    font-size:12px;
+    padding-top: 5%;
+}
+
+.login a:hover {
+    color: blue;
+}
+.right{
+    border-radius: .5rem;
+    border-left: none;
+    width: 500px;
+    height: auto;
+    /*background-color: rgba(100, 149, 237, 0.9);*/
+    background-color: #635EF3;
+    /*background-color: #BA55D3;*/
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.right .welcome{
+    color: #ffffff;
+    font-family: 'Satisfy', cursive;
+    font-size: 4rem;
+}
+.right .onestopshop{
+    color: white;
+    letter-spacing: .1rem;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    /*text-decoration: underline;*/
+    /*    -webkit-text-decoration-color: salmon;
+        text-decoration-color: salmon;
+        -webkit-text-decoration-style: wavy;
+        text-decoration-style: wavy;*/
+}
+
+.check-box p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.check-box p:hover{
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media screen and (max-width :700px) {
+    .right{
+        display: none;
+    }
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 10vw;
+}
+
+.form-section {
+    width: 40%;
+    margin: auto;
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 3rem;
+    animation: appear 3s forwards;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+form {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+}
+
+form input,
+select,
+textarea {
+    height: 2rem;
+    margin-top: 0.2rem;
+    padding-left: 0.4rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+}
+
+form label {
+    font-size: 0.9rem;
+    letter-spacing: 0.09rem;
+    font-weight: 600;
+    margin-left: 0.2rem;
+}
+
+.heading {
+    width: 100%;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 0.2rem;
+    font-weight: 700;
+    height: auto;
+    letter-spacing: 0.15rem;
+}
+
+.firstname input,
+.lastname input {
+    width: 33vh;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.submit {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.submit input {
+    padding: 0 0.7rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    letter-spacing: 0.2rem;
+}
+
+.submit input:hover {
+    background-color: #330000;
+}
+
+.reason {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.issue {
+    height: 30px;
+}
+
+.msg {
+    height: 70px;
+    width: 100%;
+    resize: none;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(70%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0; /
+        transform: translate(-85%, -40%) scale(0.5); 
+    }
+    to {
+        opacity: 1; /* End with opacity 1 */
+        transform: translateY(-50%, -50%) scale(1); 
+    }
+}
