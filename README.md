@@ -70,10 +70,6 @@ We welcome contributions from the community! If you'd like to contribute, please
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Acknowledgements
-
-- Mention any third-party libraries, frameworks, or tools used in the project.
-
 ## Contact Information
 
 For any inquiries or support, please contact us at [onestopshop@gmail.com](mailto:onestopshop@gmail.com).
