@@ -1,3 +1,9 @@
+## Usage
+
+Watch the demo video to see the OneStopShop E-Commerce platform in action:
+
+[![Project Demo](https://img.youtube.com/vi/gtdGP80gPCI/0.jpg)](https://www.youtube.com/watch?v=gtdGP80gPCI)
+
 ## Introduction
 
 OneStopShop is an E-Commerce project developed by a team of 6 members. The project utilizes JSP, Servlets, Java, JavaScript, HTML, CSS, and SQL to create a comprehensive online shopping platform.
