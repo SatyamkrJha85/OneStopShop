@@ -32,6 +32,14 @@ OneStopShop is an E-Commerce project developed by a team of 6 members. The proje
 - SQL (Structured Query Language)
 - IDE: NetBeans
 
+  
+# Project Screenshots
+
+![Home Screenshot](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/5632b30b-3603-43e7-abec-f2f1185b749d)
+*Home Page*
+
+
+
 ## Project Setup
 
 1. Clone the repository.
