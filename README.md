@@ -32,22 +32,22 @@ OneStopShop is an E-Commerce project developed by a team of 6 members. The proje
 - SQL (Structured Query Language)
 - IDE: NetBeans
 
-  # Project Screenshots
+ # Project Screenshots
 
 | Screenshot | Description |
 |------------|-------------|
-| ![Home](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/5632b30b-3603-43e7-abec-f2f1185b749d) | *Home Page* |
-| ![Profile](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/d942ac20-1b62-4066-869c-42fef8223e82) | *Profile Page* |
-| ![Order](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/284b5380-23d3-4c00-a865-712e6b4e5425) | *Order Page* |
-| ![Login](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/3726b8fe-2a92-475c-bd9e-778804866f22) | *Login Page* |
-| ![Home 2](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/6d2ca758-c0a2-437e-9ac2-12f19ddf54b0) | *Another Home Variation* |
-| ![Checkout](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/cbe2b62e-36c0-4559-9b8e-caf3ceeed463) | *Checkout Page* |
-| ![Cart](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/0392fdd9-2862-4411-b151-738fae5dfc85) | *Shopping Cart* |
-| ![Admin 4](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/91c279a7-cac8-453b-824b-8e5d13f0764a) | *Admin Dashboard Variation 4* |
-| ![Admin 2](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/5377cb66-a6d9-434d-9997-97799b9b4939) | *Admin Dashboard Variation 2* |
-| ![Admin 1](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/f335a61c-c6fc-4d1c-abd5-47fe4eeef3a1) | *Admin Dashboard Variation 1* |
-| ![About](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/ab44583b-ba62-4adc-b30b-f5deeabdbd2e) | *About Us Page* |
-| ![Search](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/24c9c52f-e8fe-4d83-a852-46b1656ee6d0) | *Search Results* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/5632b30b-3603-43e7-abec-f2f1185b749d" alt="Home" width="300" height="200"> | *Home Page* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/d942ac20-1b62-4066-869c-42fef8223e82" alt="Profile" width="300" height="200"> | *Profile Page* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/284b5380-23d3-4c00-a865-712e6b4e5425" alt="Order" width="300" height="200"> | *Order Page* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/3726b8fe-2a92-475c-bd9e-778804866f22" alt="Login" width="300" height="200"> | *Login Page* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/6d2ca758-c0a2-437e-9ac2-12f19ddf54b0" alt="Home 2" width="300" height="200"> | *Another Home Variation* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/cbe2b62e-36c0-4559-9b8e-caf3ceeed463" alt="Checkout" width="300" height="200"> | *Checkout Page* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/0392fdd9-2862-4411-b151-738fae5dfc85" alt="Cart" width="300" height="200"> | *Shopping Cart* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/91c279a7-cac8-453b-824b-8e5d13f0764a" alt="Admin 4" width="300" height="200"> | *Admin Dashboard Variation 4* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/5377cb66-a6d9-434d-9997-97799b9b4939" alt="Admin 2" width="300" height="200"> | *Admin Dashboard Variation 2* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/f335a61c-c6fc-4d1c-abd5-47fe4eeef3a1" alt="Admin 1" width="300" height="200"> | *Admin Dashboard Variation 1* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/ab44583b-ba62-4adc-b30b-f5deeabdbd2e" alt="About" width="300" height="200"> | *About Us Page* |
+| <img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/24c9c52f-e8fe-4d83-a852-46b1656ee6d0" alt="Search" width="300" height="200"> | *Search Results* |
 
 
 
