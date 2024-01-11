@@ -54,5 +54,5 @@ For any inquiries or support, please contact us at [onestopshop@gmail.com](mailt
 
 ## Contributors
 
-- [Deepak Prasad Gupta](https://github.com/Deepak28032003) - [Member 2](https://github.com/Deepak28032003/member2)
-- [Ritam Kayal](https://github.com/Ritam2000RK) - [Member 1](https://github.com/Ritam2000RK/member1)
+- [Deepak Prasad Gupta](https://github.com/Deepak28032003) - [Member 1](https://github.com/Deepak28032003/member2)
+- [Ritam Kayal](https://github.com/Ritam2000RK) - [Member 2](https://github.com/Ritam2000RK/member1)
