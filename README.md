@@ -35,8 +35,8 @@ OneStopShop is an E-Commerce project developed by a team of 6 members. The proje
   
 # Project Screenshots
 
-![Home Screenshot](https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/5632b30b-3603-43e7-abec-f2f1185b749d)
-*Home Page*
+<img src="https://github.com/SatyamkrJha85/OneStopShop/assets/111700337/5632b30b-3603-43e7-abec-f2f1185b749d" alt="Home Screenshot" width="480">
+*Description for Home Screenshot*
 
 
 
