@@ -2,13 +2,8 @@
 
 Watch the demo video to see the OneStopShop E-Commerce platform in action:
 
-<div align="center">
-  <a href="https://www.youtube.com/watch?v=gtdGP80gPCI">
-    <img src="https://img.youtube.com/vi/gtdGP80gPCI/0.jpg" alt="Project Demo">
-    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-      <path fill="#fff" d="M8 5v14l11-7z"/>
-    </svg>
-  </a>
+[![Project Demo](https://img.youtube.com/vi/gtdGP80gPCI/0.jpg)](https://www.youtube.com/watch?v=gtdGP80gPCI)
+
 
 
 ## Introduction
