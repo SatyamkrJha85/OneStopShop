@@ -2,12 +2,7 @@
 
 Watch the demo video to see the OneStopShop E-Commerce platform in action:
 
-[![Project Demo](https://img.youtube.com/vi/gtdGP80gPCI/0.jpg)](https://www.youtube.com/watch?v=gtdGP80gPCI&autoplay=1)
-<div align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/0/375.png" alt="Play Button">
-</div>
-
-
+[![Project Demo](https://img.youtube.com/vi/gtdGP80gPCI/0.jpg)](https://www.youtube.com/watch?v=gtdGP80gPCI)
 
 
 ## Introduction
